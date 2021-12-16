@@ -1,0 +1,99 @@
+@charset "utf-8";
+*{
+    margin: 0;
+	padding: 0;
+}
+body{
+    margin-top: 5px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size: 18px;
+    font-weight: bold;
+    text-align:left ;
+}
+.box{
+    background-color: #CCCCCC;
+    border: black solid 1px;
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.box p{
+    margin-left: 10px;
+    
+}
+.header{
+    background-color:#FE0000;
+    margin: 10px;
+    border: #FFFF00 solid 1px;
+    color: #ffff00;
+    padding: 10px 2px;
+}
+.header p{
+    margin-left: 10px;
+}
+#logo{
+    margin: 10px 20px;
+    border: black solid 1px;
+    background-color: #FFFF00;
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+    width: 200px;
+    display: inline-block;
+    
+}
+#banner{
+    margin: 10px 20px;
+    margin-left: 50px;
+    color: #fff;
+    border: black solid 1px;
+    background-color: #0000FE;
+    height: 50px;
+    line-height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+#menu{
+    margin: 10px 20px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    width: 586px;
+    border: solid 1px black;
+    background-color: #023401;
+}
+#main{
+    background-color:#016701;
+    margin: 10px;
+    border: #FFFF00 solid 1px;
+    color: #fff;
+    padding: 10px 2px;
+}
+#sidebar{
+    margin: 10px 20px;
+    border: white solid 1px;
+    background-color: #0000FE;
+    height: 250px;
+    line-height: 50px;
+    width: 200px;
+    display: inline-block;  
+}
+#content{
+    margin: 10px 20px;
+    margin-left: 50px;
+    color: #fff;
+    border: white solid 1px;
+    background-color: #00CCFF;
+    height: 250px;
+    line-height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+#footer{
+    background-color:#FE0000;
+    margin: 10px;
+    margin-top: 20px;
+    border: #FFFF00 solid 1px;
+    color: #fff;
+    padding: 10px 2px;
+}
