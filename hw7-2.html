@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>灯泡</title>
+   <style type="text/css">
+        div{
+            width: 350px;
+            margin: 200px auto;
+        }
+        img{
+            width: 200px;
+            height: 280px;
+        }
+    </style>
+    <script type="text/javascript">
+        function on() {
+            let image = document.getElementById("light");
+            image.src = "开.png";}
+        function off() {
+            let image = document.getElementById("light");
+            image.src = "关.png";}
+    </script>
+</head>
+
+<body>
+<div>
+    <button onclick="on()">开灯</button>
+    <img id="light" src="关.png" alt="#" />
+    <button onclick="off()">关灯</button>
+</div>
+</body>
+</html>
